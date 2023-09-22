@@ -1,5 +1,5 @@
-class BinarySearchExample1{  
-    public static int binarySearch(int arr[], int first, int last, int key){  
+ class BinarySearchExample1{  
+   public static int binarySearch(int arr[], int first, int last, int key){  
         if (last>=first){  
             int mid = first + (last - first)/2;  
             if (arr[mid] == key){  
